@@ -1,0 +1,5 @@
+{
+    "name": "Template",
+    "module.template.name": "Template",
+    "module.template.desc": "Official module template for creating custom Kora modules."
+}
