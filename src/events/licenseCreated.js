@@ -9,7 +9,7 @@ export class LicenseCreatedEvent extends Events {
         });
     }
 
-    async run(license) {
+    async run({ license }) {
         this.kora.console.log(this.kora.console.levels.info, `[${this.module}] Observed license creation: ${license.key}`);
     }
 }
